@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Portfolio Website</title>
+        <link rel="stylesheet" href="style.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'
+            rel='stylesheet'>
+    </head>
+    <body>
+
+        <nav>
+            <a href="#" class="logo"><span>Navika</span></a>
+
+            <ul class="links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+
+            </ul>
+            <box-icon name='menu-alt-right' id="menu"></box-icon>
+            <a href="#contact" class="btn">Contact ME</a>
+
+        </nav>
+
+        <section id="home">
+            <img src="ph.jpg" alt>
+
+            <div class="info-box">
+                <h1><span>Hello I'm Navika Tyagi</span></h1>
+                <h3><span>Web Developer </span> intern at CipherByte
+                    Technology</h3>
+                <p> Frontend developer with a strong passion for web
+                    design and user interfaces. Proficient in HTML, CSS,
+                    JavaScript, and React. Eager to collaborate, learn,
+                    and contribute to the world of web development. Open
+                    to opportunities for hands-on experience</p>
+            </div>
+            <div class="btn-box">
+                <div class="btn">Hire</div>
+                <div class="btn">Contact me</div>
+
+            </div>
+
+        </section>
+
+        <section id="about">
+            <div class="about-box">
+                <div class="about-info">
+                    <h1><span>About Me</span></h1>
+                    <p>Hello! I’m Navika, a frontend developer with a passion
+                        for creating engaging and user-friendly websites. I
+                        recently completed my masters and am excited to start my
+                        career in web development.
+                        <h2 class="skill-heading"><span>Skills</span></h2>
+                        <div class="skills">
+                            <ul>
+                                <li><span><box-icon
+                                            name='chevron-right'></box-icon>HTML</span></li>
+                                <li><span><box-icon
+                                            name='chevron-right'></box-icon>CSS</span></li>
+                                <li><span><box-icon
+                                            name='chevron-right'></box-icon>JavaScript</span></li>
+
+                            </ul>
+                            <ul>
+                                <li><span><box-icon
+                                            name='chevron-right'></box-icon>BootStrap</span></li>
+                                <li><span><box-icon
+                                            name='chevron-right'></box-icon>React</span></li>
+                                <li><span><box-icon
+                                            name='chevron-right'></box-icon>MySQL</span></li>
+
+                            </ul>
+                        </div>
+
+                    </p>
+                </div>
+            </div>
+            <img src="ph.jpg" alt>
+
+        </section>
+
+        <section id="projects">
+            <h1 class="header"><span> Projects</span></h1>
+            <div class=" project-container">
+                <div class="box">
+                    <h1><span>Myntra clone</span></h1>
+                    <p>
+                        This project is a clone of the Myntra
+                        e-commerce website, developed using HTML, CSS, and
+                        JavaScript. It replicates the look and basic
+                        functionalities of Myntra, including a homepage with
+                        product categories, individual product pages, and a
+                        responsive navigation menu. Key
+                        challenges included ensuring responsiveness across
+                        devices and implementing interactive features with
+                        JavaScript.
+                    </p>
+                    <img src="myntra.png" alt="myntra cone">
+                </div>
+                <div class="box">
+                    <h1><span>Weather Forecast</span></h1>
+                    <p> This project is a weather forecast application
+                        developed with HTML, CSS, and JavaScript. It provides
+                        users with current weather conditions and forecasts for
+                        different locations Users can search for weather
+                        information by city, and the app dynamically updates
+                        with real-time data fetched from a weather API. Key
+                        challenges included integrating the API to display
+                        accurate weather details
+                    </p>
+                    <img src="weather.png" alt>
+                </div>
+                <div class="box">
+                    <h1><span>Todo List</span></h1>
+                    <p> This project is a simple to-do list application
+                        built using HTML, CSS, and JavaScript. It enables users
+                        to efficiently manage their tasks by allowing them to
+                        add new items, mark tasks as completed, and remove tasks
+                        from the list. Key challenges included
+                        implementing dynamic task management and maintaining a
+                        smooth, interactive interface. </p>
+                    <img src="todo.png" alt>
+                </div>
+
+            </div>
+        </section>
+        <section id="contact">
+            <h1 class="header"><span>Contact</span></h1>
+            <form action="#">
+                <div class="input-box">
+                    <span>Full Name</span>
+                    <input type="text " placeholder="Enter Your Full Name">
+                </div>
+                <div class="input-box">
+                    <span> Your Email</span>
+                    <input type="text " placeholder="Enter Your Email">
+                </div>
+                <div class="input-box">
+                    <span> Your Message</span>
+                    <input type="text " placeholder="Enter Your Message">
+                </div>
+                <div class="btn">Submit</div>
+
+            </form>
+        </section>
+
+        <script src="index.js"></script>
+    </body>
+</html>
